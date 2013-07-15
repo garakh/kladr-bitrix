@@ -21,11 +21,17 @@ $arComponentParameters = array(
 
 	),
 	'PARAMETERS'  =>  array(
+                'TOKEN' => array(
+                    'PARENT' => 'BASE',
+                    'NAME' => GetMessage('TOKEN_PARAMETR_NAME'),
+                    'TYPE' => 'STRING',
+                    'DEFAULT' => '',
+                ),
                 'KEY' => array(
                     'PARENT' => 'BASE',
                     'NAME' => GetMessage('KEY_PARAMETR_NAME'),
                     'TYPE' => 'STRING',
-                    'DEFAULT' => 'demo',
+                    'DEFAULT' => '',
                 ),
                 'REGION_INPUT' => array(
                     'PARENT' => 'INPUTS',

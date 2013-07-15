@@ -1,9 +1,9 @@
 <?
-$MESS ['EMPTY_KEY_ERROR'] = 'Введите ключ КЛАДР API';
+$MESS['EMPTY_KEY_ERROR'] = 'Enter the key KLADR API';
 
-$MESS ['REGION_LABEL'] = 'Область';
-$MESS ['DISTRICT_LABEL'] = 'Район';
-$MESS ['LOCATION_LABEL'] = 'Населённый пункт';
-$MESS ['STREET_LABEL'] = 'Улица';
-$MESS ['BUILDING_LABEL'] = 'Дом';
+$MESS['REGION_LABEL'] = 'Region';
+$MESS['DISTRICT_LABEL'] = 'District';
+$MESS['LOCATION_LABEL'] = 'Location';
+$MESS['STREET_LABEL'] = 'Street';
+$MESS['BUILDING_LABEL'] = 'Home';
 ?>
