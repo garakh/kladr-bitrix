@@ -1,5 +1,5 @@
 <?
-$MESS ['COMPONENT_NAME'] = 'Форма для ввода адреса';
-$MESS ['COMPONENT_DESC'] = 'Форма для ввода адреса с автодополнением';
-$MESS ['COMPONENT_GROUP'] = 'Primepix';
+$MESS ['COMPONENT_NAME'] = 'The form for entering the address';
+$MESS ['COMPONENT_DESC'] = 'The form for entering addresses with autocompletion';
+$MESS ['COMPONENT_GROUP'] = 'KLADR in the cloud';
 ?>
