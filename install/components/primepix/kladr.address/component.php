@@ -7,7 +7,6 @@ if(empty($arParams['KEY'])){
 
 $arResult = array();
 
-$arResult['TOKEN']  = $arParams['TOKEN'];
 $arResult['KEY'] = $arParams['KEY'];
 
 $arResult['SETTINGS'] = array(

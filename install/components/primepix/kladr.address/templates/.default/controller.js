@@ -1,4 +1,4 @@
-var KladrApiController = function(token, key){
+var KladrApiController = function(key){
     var self = this;
     var $ = null;
 
@@ -12,9 +12,10 @@ var KladrApiController = function(token, key){
         return obj.name;
     }
 
-    this.Init = function(token, key){        
-        if(!token) return;
-        if(!key) return;
+    this.Init = function(key){
+        if(!key){
+            return;
+        }
 
         if(typeof(jQuery) == "undefined") {
             alert('jQuery не подключен!');
@@ -228,7 +229,6 @@ var KladrApiController = function(token, key){
             };
 
             region.kladr({
-                token: token,
                 key: key,
                 type: $.ui.kladrObjectType.REGION,
                 label: LabelFormater,
@@ -239,7 +239,6 @@ var KladrApiController = function(token, key){
             });
 
             district.kladr({
-                token: token,
                 key: key,
                 type: $.ui.kladrObjectType.DISTRICT,
                 label: LabelFormater,
@@ -250,7 +249,6 @@ var KladrApiController = function(token, key){
             });
 
             location.kladr({
-                token: token,
                 key: key,
                 type: $.ui.kladrObjectType.CITY,
                 label: LabelFormater,
@@ -261,7 +259,6 @@ var KladrApiController = function(token, key){
             });
 
             street.kladr({
-                token: token,
                 key: key,
                 type: $.ui.kladrObjectType.STREET,
                 label: LabelFormater,
@@ -272,7 +269,6 @@ var KladrApiController = function(token, key){
             });
 
             building.kladr({
-                token: token,
                 key: key,
                 type: $.ui.kladrObjectType.BUILDING,
                 label: LabelFormater,
@@ -450,10 +446,10 @@ var KladrApiController = function(token, key){
 
     }
 
-    self.Init(token, key);
+    self.Init(key);
     return self;
 }
 
-var KladrApiControllerInit = function(token, key){
-    KladrApiController = new KladrApiController(token, key);
+var KladrApiControllerInit = function(key){
+    KladrApiController = new KladrApiController(key);
 }

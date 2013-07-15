@@ -24,6 +24,6 @@
     <? endforeach ?>
 
     <script src="<?= $templateFolder ?>/jquery.primepix.kladr.min.js"></script>
-    <script src="<?= $templateFolder ?>/controller.js"></script>
-    <script>KladrApiControllerInit('<?= $arResult['TOKEN'] ?>', '<?= $arResult['KEY'] ?>');</script>
+    <script src="<?= $templateFolder ?>/controller.min.js"></script>
+    <script>KladrApiControllerInit('<?= $arResult['KEY'] ?>');</script>
 </div>
