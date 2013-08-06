@@ -10,5 +10,7 @@
 Реализован на базе JQuery плагина [kladrapi-jquery] [1].
 В качестве источника данных используется сервис [kladr-api.ru] [2].
 
+Внимание! После копирования в папку /bitrix/modules не забудьте переименовать модуль в primepixkladr
+
 [1]: https://github.com/garakh/kladrapi-jquery        "kladrapi-jquery"
 [2]: http://kladr-api.ru/        "КЛАДР API"
