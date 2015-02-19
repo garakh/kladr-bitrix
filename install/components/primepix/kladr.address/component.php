@@ -14,6 +14,7 @@ $arResult['SETTINGS'] = array(
     'INCLUDE_JQUERY' => $arParams['INCLUDE_JQUERY'] == 'Y',
     'INCLUDE_JQUERY_UI' => $arParams['INCLUDE_JQUERY_UI'] == 'Y',
     'INCLUDE_JQUERY_UI_THEME' => $arParams['INCLUDE_JQUERY_UI_THEME'] == 'Y',
+    'USE_PAID_KLADR' => $arParams['USE_PAID_KLADR'] == 'Y',
 );
 
 $arResult['OPTIONS'] = array(

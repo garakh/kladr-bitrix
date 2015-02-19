@@ -23,7 +23,13 @@
         </div>
     <? endforeach ?>
 
-    <script src="<?= $templateFolder ?>/jquery.primepix.kladr.min.js"></script>
+	<? if($arResult['SETTINGS']['USE_PAID_KLADR']): ?>
+		<script src="<?= $templateFolder ?>/jquery.primepix.kladrpaid.min.js"></script>
+	<? else: ?>
+		<script src="<?= $templateFolder ?>/jquery.primepix.kladr.min.js"></script>
+	<? endif ?>
+	
+    
     <script src="<?= $templateFolder ?>/controller.js"></script>
     <script>KladrApiControllerInit('<?= $arResult['TOKEN'] ?>', '<?= $arResult['KEY'] ?>');</script>
 </div>

@@ -99,7 +99,13 @@ $arComponentParameters = array(
                     'TYPE' => 'CHECKBOX',
                     'DEFAULT' => 'N',
                 ),
-
+                'USE_PAID_KLADR' => array(
+                    'PARENT' => 'SETTINGS',
+                    'NAME' => 'Использовать платный сервер',
+                    'TYPE' => 'CHECKBOX',
+                    'DEFAULT' => 'N',
+                ),
+				
                 'INCLUDE_JQUERY' => array(
                     'PARENT' => 'SETTINGS',
                     'NAME' => GetMessage('INCLUDE_JQUERY_PARAMETR_NAME'),
